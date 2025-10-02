@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do App</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Alice&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="lang-switcher">
+    <button data-lang="uk">УКР</button>
+    <button data-lang="en">ENG</button>
+    <button data-lang="jp">日本語</button>
+</div>
+<h1 class="title" id="title">What Alice should do?</h1>
+<div class="container input-container">
+    <input type="text" id="taskInput" placeholder="Enter your task">
+    <button class="pink-btn" id="addBtn">Add task</button>
+</div>
+<div id="quote" class="quote"></div>
+<div class="container results-container">
+    <ul id="taskList"></ul>
+    <button class="pink-btn" id="clearAllBtn">Delete all</button>
+</div>
+
+<script src="js/script.js"></script>
+<script src="js/dragndrop.js"></script>
+<script src="js/quotes.js"></script>
+</body>
+</html>
